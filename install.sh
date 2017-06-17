@@ -5,6 +5,9 @@ fi
 if [ ! -d "$HOME/.icons/" ]; then
   mkdir $HOME/.icons/
 fi
+if [ ! -d "$HOME/.local/bin/" ]; then
+  mkdir $HOME/.local/bin/
+fi
 cp MiseAJourEPG.sh $HOME/.local/bin/
 cp tvguide-logo-epg.png $HOME/.icons
 cp MiseAJourEPG.desktop $HOME/.local/share/applications/
