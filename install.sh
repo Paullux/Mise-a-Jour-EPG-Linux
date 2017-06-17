@@ -9,5 +9,5 @@ cp MiseAJourEPG.sh $HOME/Documents/MiseAJourEPG/
 cp tvguide-logo-epg.png $HOME/.icons
 cp MiseAJourEPG.desktop $HOME/.local/share/applications/
 chmod +x $HOME/Documents/MiseAJourEPG/MiseAJourEPG.sh
-chmod +x $HOME/Documents/MiseAJourEPG/MiseAJourEPG.desktop
+chmod +x $HOME/.local/share/applications/MiseAJourEPG.desktop
 chmod +x ./uninstall.sh
