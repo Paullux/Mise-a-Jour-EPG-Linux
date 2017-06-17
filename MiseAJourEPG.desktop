@@ -4,4 +4,4 @@ Terminal=true
 Name=Mise à Jour EPG
 Exec=./Documents/MiseAJourEPG/MiseAJourEPG.sh
 Type=Application
-Icon=.tvguide-logo-epg.png
+Icon=tvguide-logo-epg.png
