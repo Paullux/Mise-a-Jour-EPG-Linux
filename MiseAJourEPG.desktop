@@ -2,6 +2,6 @@
 Comment=Mise à jour du programme TV dans Kodi
 Terminal=true
 Name=Mise à Jour EPG
-Exec=bash '$HOME/Documents/MiseAJourEPG/MiseAJourEPG.sh'
+Exec=./Documents/MiseAJourEPG/MiseAJourEPG.sh
 Type=Application
-Icon=$HOME/Documents/MiseAJourEPG/tvguide-logo-epg.png
+Icon=./Documents/MiseAJourEPG/tvguide-logo-epg.png
