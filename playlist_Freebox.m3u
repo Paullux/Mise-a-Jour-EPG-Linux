@@ -1,0 +1,171 @@
+#EXTM3U
+#EXTINF:0 tvg-id="C192.api.telerama.fr" tvg-logo="tf1.png",TF1
+rtsp://192.168.0.21/fbxdvb/stream?tsid=6&nid=8442&sid=1537&frontend=1
+#EXTINF:0 tvg-id="C4.api.telerama.fr" tvg-logo="france2.png",France 2
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=201&flavour=hd
+#EXTINF:0 tvg-id="C80.api.telerama.fr"  tvg-logo="france3.png",France 3
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=202&flavour=hd
+#EXTINF:0 tvg-id="C34.api.telerama.fr"  tvg-logo="canal+.png",CANAL+
+rtsp://192.168.0.21/fbxdvb/stream?tsid=3&nid=8442&sid=769&frontend=1
+#EXTINF:0 tvg-id="C47.api.telerama.fr" tvg-logo="france5.png",France 5
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=203&flavour=hd
+#EXTINF:0 tvg-id="C118.api.telerama.fr" tvg-logo="m6.png",M6
+rtsp://192.168.0.21/fbxdvb/stream?tsid=4&nid=8442&sid=1025&frontend=1
+#EXTINF:0 tvg-id="C111.api.telerama.fr" tvg-logo="arte.png",Arte
+rtsp://192.168.0.21/fbxdvb/stream?tsid=4&nid=8442&sid=1031&frontend=1
+#EXTINF:0 tvg-id="C445.api.telerama.fr" tvg-logo="c8.png",C8 
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=372&flavour=sd
+#EXTINF:0 tvg-id="C119.api.telerama.fr"  tvg-logo="w9.png",W9
+rtsp://192.168.0.21/fbxdvb/stream?tsid=4&nid=8442&sid=1026&frontend=1
+#EXTINF:0 tvg-id="C195.api.telerama.fr"  tvg-logo="tmc.png",TMC
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=497&flavour=hd
+#EXTINF:0 tvg-id="C446.api.telerama.fr"  tvg-logo="nt1.png",NT1
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=374&flavour=hd
+#EXTINF:0 tvg-id="C444.api.telerama.fr"  tvg-logo="nrj12.png",NRJ 12
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=375&flavour=hd
+#EXTINF:0 tvg-id="C234.api.telerama.fr"  tvg-logo="lcp.png",La Chaîne Parlementaire
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=226&flavour=hd
+#EXTINF:0 tvg-id="C78.api.telerama.fr"  tvg-logo="france4.png",France 4
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=376&flavour=hd
+#EXTINF:0 tvg-id="C481.api.telerama.fr"  tvg-logo="bfmtv.png",BFM TV
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=400&flavour=hd
+#EXTINF:0 tvg-id="C226.api.telerama.fr"  tvg-logo="cnews.png",CNews
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=679&flavour=sd
+#EXTINF:0 tvg-id="C458.api.telerama.fr"  tvg-logo="c17.png",CStar
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=678&flavour=hd
+#EXTINF:0 tvg-id="C482.api.telerama.fr"  tvg-logo="gulli.png",Gulli
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=677&flavour=hd
+#EXTINF:0 tvg-id="C160.api.telerama.fr"  tvg-logo="franceO.png",France Ô
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=238&flavour=hd
+#EXTINF:0 tvg-id="C1404.api.telerama.fr"  tvg-logo="hd1.png",HD1
+rtsp://192.168.0.21/fbxdvb/stream?tsid=10&nid=8442&sid=2561&frontend=1
+#EXTINF:0 tvg-id="C1401.api.telerama.fr"  tvg-logo="lequipe21.png",L'Equipe
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=994&flavour=hd
+#EXTINF:0 tvg-id="C1403.api.telerama.fr"  tvg-logo="6ter.png",6ter
+rtsp://192.168.0.21/fbxdvb/stream?tsid=4&nid=8442&sid=1046&frontend=1
+#EXTINF:0 tvg-id="C1402.api.telerama.fr"  tvg-logo="n23.png",Numéro 23
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=996&flavour=hd
+#EXTINF:0 tvg-id="C1400.api.telerama.fr"  tvg-logo="rmcdecouverte.png",RMC Découverte
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=997&flavour=hd
+#EXTINF:0 tvg-id="C1399.api.telerama.fr"  tvg-logo="cherie25.png",Chérie 25
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=998&flavour=hd
+#EXTINF:0 tvg-id="C112.api.telerama.fr"  tvg-logo="lci.png",LCI
+rtsp://192.168.0.21/fbxdvb/stream?tsid=3&nid=8442&sid=776&frontend=1
+#EXTINF:0 tvg-id="C2111.api.telerama.fr"  tvg-logo="franceinfotv.png",franceinfo
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=1173&flavour=hd
+#EXTINF:0 tvg-id="C145.api.telerama.fr"  tvg-logo="parispremiere.png",Paris Première
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=213&flavour=ld
+#EXTINF:0 tvg-id="C115.api.telerama.fr"  tvg-logo="rtl9.png",RTL9
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=210&flavour=hd
+#EXTINF:0 tvg-logo="qvc.png",QVC
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=1121&flavour=hd
+#EXTINF:0 tvg-id="C87.api.telerama.fr"  tvg-logo="gameone.png",Game One
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=220&flavour=hd
+#EXTINF:0 tvg-id="C191.api.telerama.fr"  tvg-logo="teva.png",TEVA
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=404&flavour=ld
+#EXTINF:0 tvg-id="C5.api.telerama.fr"  tvg-logo="ab1.png",AB 1
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=211&flavour=hd
+#EXTINF:0 tvg-id="C33.api.telerama.fr"  tvg-logo="canal+cinema.png",CANAL+ CINEMA
+rtsp://192.168.0.21/fbxdvb/stream?tsid=3&nid=8442&sid=770&frontend=1
+#EXTINF:0 tvg-id="C35.api.telerama.fr"  tvg-logo="canal+cinema.png",CANAL+ SPORT
+rtsp://192.168.0.21/fbxdvb/stream?tsid=3&nid=8442&sid=771&frontend=1
+#EXTINF:0 tvg-id="C10.api.telerama.fr"  tvg-logo="action.png",Action
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=242&flavour=hd
+#EXTINF:0 tvg-id="C1562.api.telerama.fr"  tvg-logo="paramountchannel.png",Paramount Channel
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=1050&flavour=hd
+#EXTINF:0 tvg-id="C453.api.telerama.fr"  tvg-logo="m6music.png",M6 Music
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=430&flavour=ld
+#EXTINF:0 tvg-id="C325.api.telerama.fr"  tvg-logo="traceurban.png",Trace Urban
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=228&flavour=hd
+#EXTINF:0 tvg-id="C753.api.telerama.fr"  tvg-logo="tracetropical.png",Trace Tropical
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=769&flavour=hd
+#EXTINF:0 tvg-id="C659.api.telerama.fr"  tvg-logo="vivolta.png",Vivolta
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=940&flavour=ld
+#EXTINF:0 tvg-id="C205.api.telerama.fr"  tvg-logo="tv5monde.png",TV5 Monde
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=206&flavour=hd
+#EXTINF:0 tvg-id="C121.api.telerama.fr"  tvg-logo="mcm.png",MCM
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=621&flavour=sd
+#EXTINF:0 tvg-id="C87.api.telerama.fr"  tvg-logo="gameone.png",Game One +1
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=979&flavour=ld
+#EXTINF:0 tvg-id="C6.api.telerama.fr"  tvg-logo="manga.png",Mangas
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=253&flavour=hd
+#EXTINF:0 tvg-id="C1960.api.telerama.fr"  tvg-logo="bet.png",BET
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=1135&flavour=hd
+#EXTINF:0 tvg-logo="Logo_Enorme_TV.png",Enorme TV
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=1037&flavour=hd
+#EXTINF:0 tvg-logo="nolife.png",Nolife
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=658&flavour=hd
+#EXTINF:0 tvg-logo="Small_logo_GONG_black.png",GONG
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=1045&flavour=hd
+#EXTINF:0 tvg-logo="GONGMAX.png",GONG MAX
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=813&flavour=hd
+#EXTINF:0 tvg-id="C563.api.telerama.fr"  tvg-logo="Ginx_logo.png",Ginx
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=618&flavour=sd
+#EXTINF:0 tvg-id="C289.api.telerama.fr"  tvg-logo="cinepolar.png",Ciné Polar
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=244&flavour=hd
+#EXTINF:0 tvg-id="C288.api.telerama.fr"  tvg-logo="cinefx.png",Ciné FX
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=243&flavour=hd
+#EXTINF:0 tvg-id="C1562.api.telerama.fr"  tvg-logo="paramountchannel.png",Paramount Décalé
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=1167&flavour=hd
+#EXTINF:0 tvg-id="C1190.api.telerama.fr"  tvg-logo="Logo_Eurochannel-Blue.png",Eurochannel
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=959&flavour=hd
+#EXTINF:0 tvg-id="C2040.api.telerama.fr"  tvg-logo="LogoToonami_couleur.png",Toonami
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=1163&flavour=hd
+#EXTINF:0 tvg-id="C15.api.telerama.fr"  tvg-logo="abmoteurs.png",AB Moteurs
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=222&flavour=hd
+#EXTINF:0 tvg-id="C64.api.telerama.fr"  tvg-logo="Logo-equidia-live.png",Equidia Live
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=212&flavour=hd
+#EXTINF:0 tvg-id="C1168.api.telerama.fr"  tvg-logo="Trace_Sports.png",Trace Sport Stars
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=965&flavour=hd
+#EXTINF:0 tvg-logo="FightBOX_HD.png",Fight Box HD
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=969&flavour=hd
+#EXTINF:0 tvg-logo="sport365.png",Sport 365 TV
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=982&flavour=hd
+#EXTINF:0 tvg-logo="MVTV_square_blacktypo.png",Motorvision
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=1127&flavour=hd
+#EXTINF:0 tvg-id="C415.api.telerama.fr"  tvg-logo="nautical-channel.png",Nautical Channel
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=255&flavour=hd
+#EXTINF:0 tvg-id="1166.api.telerama.fr"  tvg-logo="Golf_Channel_2014_Logo.png",Golf Channel
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=892&flavour=hd
+#EXTINF:0 tvg-logo="PremiereFC.png",Premiere Futebol Clube
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=755&flavour=sd
+#EXTINF:0 tvg-id="C88.api.telerama.fr"  tvg-logo="histoire.png",Histoire
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=235&flavour=sd
+#EXTINF:0 tvg-id="C7.api.telerama.fr"  tvg-logo="Toute_l'Histoire_logo_2011.png",Toute l'Histoire
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=250&flavour=hd
+#EXTINF:0 tvg-id="C63.api.telerama.fr" tvg-logo="Science_et_Vie_TV_logo_2015.png",Science & Vie TV
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=251&flavour=hd
+#EXTINF:0 tvg-id="C12.api.telerama.fr"  tvg-logo="Animaux.png",Animaux
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=248&flavour=hd
+#EXTINF:0 tvg-logo="MY_ZEN_TV.png",MyZen.tv
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=770&flavour=hd
+#EXTINF:0 tvg-logo="BBLK1.png",BeBlack
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=918&flavour=ld
+#EXTINF:0 tvg-logo="11-76-large.png",J4T
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=981&flavour=ld
+#EXTINF:0 tvg-logo="Black_Logo.png",OFIVE
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=910&flavour=ld
+#EXTINF:0 tvg-logo="clubbing-tv.png",Clubbing TV
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=767&flavour=hd
+#EXTINF:0 tvg-logo="Logo_-_Virgin_Radio_TV_(2014).png",Virgin Radio TV
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=1071&flavour=ld
+#EXTINF:0 tvg-id="C343.api.telerama.fr"  tvg-logo="mcmtop.png",MCM TOP
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=622&flavour=hd
+#EXTINF:0 tvg-id="C1948.api.telerama.fr"  tvg-logo="TRACE-TOCA.png",Trace Toca
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=1137&flavour=ld
+#EXTINF:0 tvg-logo="logo_gospel.png",Trace Gospel
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=1136&flavour=hd
+#EXTINF:0 tvg-id="C529.api.telerama.fr"  tvg-logo="france24.png",France 24
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=739&flavour=sd
+#EXTINF:0 tvg-logo="LCP_Logo.png",LCP - Assemblée Nationale 24h/24
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=688&flavour=hd
+#EXTINF:0 tvg-logo="public-senat.png",Public Sénat
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=692&flavour=hd
+#EXTINF:0 tvg-id="C140.api.telerama.fr"  tvg-logo="EURONEWS.png",Euronews
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=205&flavour=sd
+#EXTINF:0 tvg-id="C140.api.telerama.fr"  tvg-logo="EURONEWS.png",Euronews Int
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=949&flavour=sd
+#EXTINF:0 tvg-id="1073.api.telerama.fr"  tvg-logo="bfmbusiness.png",BFM Business
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=897&flavour=hd
+#EXTINF:0 tvg-logo="Arret_sur_images.png",Arretsurimages.tv
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=738&flavour=sd
