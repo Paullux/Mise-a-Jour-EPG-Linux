@@ -1,5 +1,4 @@
 #!/bin/bash
-rm -rv $HOME/Documents/MiseAJourEPG/complet.zip
-wget -P $HOME/Documents/MiseAJourEPG/ http://kevinpato.free.fr/xmltv/download/complet.zip
-unzip -o $HOME/Documents/MiseAJourEPG/complet.zip -d /home/paul/Téléchargements/
-rm -rv $HOME/Documents/MiseAJourEPG/complet.zip
+bash $HOME/Documents/MiseAJourEPG/tv_grab_fr_telerama --output=$HOME/Documents/MiseAJourEPG/xmltv/complet.xml
+mv --output=$HOME/Documents/MiseAJourEPG/xmltv/complet.xml --output=$HOME/Documents/MiseAJourEPG/complet.xml
+exit 0
