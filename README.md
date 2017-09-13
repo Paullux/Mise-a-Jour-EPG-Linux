@@ -34,3 +34,7 @@ Pour exécuter le script en pearl il faut installer perl et les modules de perl 
  => Date::Parse
  
  => LWP::Protocol::https
+
+
+Si jamais certaines chaines ne sont pas chargées, vérifiez si vous avez installer les chaines TNT sur le Freebox Player.
+Sinon vérifiez aussi la connection entre le Freebox-Player et la Freebox-Server (notamment au niveau des freeplugs).
