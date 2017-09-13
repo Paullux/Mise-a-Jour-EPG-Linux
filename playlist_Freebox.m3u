@@ -125,7 +125,7 @@ rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=982&flavour=hd
 rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=1127&flavour=hd
 #EXTINF:0 tvg-id="C415.api.telerama.fr"  tvg-logo="nautical-channel.png",Nautical Channel
 rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=255&flavour=hd
-#EXTINF:0 tvg-id="1166.api.telerama.fr"  tvg-logo="Golf_Channel_2014_Logo.png",Golf Channel
+#EXTINF:0 tvg-logo="Golf_Channel_2014_Logo.png",Golf Channel
 rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=892&flavour=hd
 #EXTINF:0 tvg-logo="PremiereFC.png",Premiere Futebol Clube
 rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=755&flavour=sd
