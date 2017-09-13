@@ -36,5 +36,5 @@ Pour exécuter le script en pearl il faut installer perl et les modules de perl 
  => LWP::Protocol::https
 
 
-Si jamais certaines chaines ne sont pas chargées, vérifiez si vous avez installer les chaines TNT sur le Freebox Player.
+Si jamais certaines chaines ne sont pas chargées (en particuliers les chaines des groupes TF1 et M6), vérifiez si vous avez installer les chaines TNT sur le Freebox Player.
 Sinon vérifiez aussi la connection entre le Freebox-Player et la Freebox-Server (notamment au niveau des freeplugs).
