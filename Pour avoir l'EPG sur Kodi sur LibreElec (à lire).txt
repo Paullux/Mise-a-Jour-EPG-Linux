@@ -25,6 +25,7 @@ RUN curl -SLO https://sourceforge.net/projects/xmltv/files/xmltv/0.5.69/xmltv-0.
     && cpanm JSON \
     && cpanm Date::Parse \
     && cpanm LWP::Protocol::https \
+    && cpanm Digest::HMAC \
     && echo y | cpanm --verbose .
 ------------------------------------------------------------------------------------------------------
 Pour compiler le Docker :
