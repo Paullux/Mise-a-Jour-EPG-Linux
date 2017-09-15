@@ -93,7 +93,8 @@ L<xmltv(5)>
 =head1 AUTHOR
 
 Zubrick, zubrick<at>number6<dot>ch
-Modified by patrick-g  pgn<dot>ltech<at>free<dot>fr
+Contributed by patrick-g  pgn<dot>ltech<at>free<dot>fr
+Contributed by hamelg
 
 =head1 LICENSE
 
@@ -205,6 +206,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 1.26 Encodage utf8 correcte et correction d'un bug pour le flag stereo
 
 1.27 Correction de certains champs
+
+1.28 Ajout api_cle
 =cut
 
 
@@ -225,7 +228,7 @@ END
 
 use warnings;
 use strict;
-use XMLTV::Version '$Id: tv_grab_fr_telerama,v 1.27 2017/09/02 20:33:00 zubrick Exp $ ';
+use XMLTV::Version '$Id: tv_grab_fr_telerama,v 1.28 2017/09/15 20:33:00 hamelg Exp $ ';
 #use XMLTV::Capabilities qw/baseline manualconfig cache/;
 use XMLTV::Capabilities qw/baseline manualconfig/;
 use XMLTV::Description 'France (telerama)';
@@ -251,6 +254,7 @@ use Encode;
 use JSON;
 #use Data::Dumper;
 use Date::Parse;
+use Digest::HMAC_SHA1 qw(hmac_sha1_hex);
 
 #***************************************************************************
 # Main declarations
@@ -268,7 +272,7 @@ my @offsets = (2, 3, 4, 5, 6, 7);
 # Slot of days for day per day grabbing
 # my @days = (2, 3, 4, 5, 6, 7, 8, 9);
 
-my $Delay = 2; # in seconds
+my $Delay = 5; # in seconds
 my $FailOnError = 1; # Fail on fetch error
 
 my %errors = ();
@@ -331,10 +335,10 @@ my $ROOT_URL;
 
 my $ua = LWP::UserAgent->new;
 
-$CHANNEL_GRID = 'https://api.telerama.fr/v1/application/initialisation';
-$CHANNEL_GRID_PAGE = "https://api.telerama.fr/v1/programmes/telechargement";
-$ROOT_URL  = 'https://api.telerama.fr/';
-$ua->agent("Telerama/5893 CFNetwork/811.5.4 Darwin/16.7.0");
+$CHANNEL_GRID = '/v1/application/initialisation';
+$CHANNEL_GRID_PAGE = "/v1/programmes/telechargement";
+$ROOT_URL  = 'https://api.telerama.fr';
+$ua->agent("okhttp/3.2.0");
 
 $ua->env_proxy;
 
@@ -427,6 +431,23 @@ sub get_more_channel_icon( $ );
 sub process_channel_grid_page( $$$$ );
 sub debug_print( @ );
 sub get_page( $ );
+
+sub mkurl($$) {
+    my ($u, %p) = ($_[0], %{$_[1]});
+    my $l;
+
+    $p{'appareil'} = 'android_tablette';
+
+    foreach(sort keys %p) {
+        $l .= "$_$p{$_}";
+    }
+
+    $p{'api_signature'} = hmac_sha1_hex("$u$l", 'Eufea9cuweuHeif');
+    $p{'api_cle'} = 'apitel-5304b49c90511';
+
+    return "$ROOT_URL$u?".join '&', map {"$_=$p{$_}"} keys %p;
+}
+
 
 # Set this to 1 of you debug strings
 my $DEBUG_FR = 0;
@@ -677,7 +698,7 @@ foreach $ind (sort { $a <=> $b } keys %channels) {
             $dayoff = strftime("%Y-%m-%d", gmtime(time() + 3600 * 24 * $i));
             #debug_print( "dayoff  : " . gmtime(time() + 3600 * 24 * $i) ."\n");
 
-            $url = $CHANNEL_GRID_PAGE."?dates=".$dayoff."&id_chaines=".$chid."&nb_par_page=10000";
+            $url = mkurl($CHANNEL_GRID_PAGE, { 'dates' => "$dayoff", 'id_chaines' => "$chid", 'nb_par_page' => "100" });
             push @to_get, [ $url, $chid, $i ];
         }
     } else {
@@ -777,7 +798,7 @@ sub get_channels( ) {
     my %channels;
 
     # Get the current page
-    my $page = get_page($CHANNEL_GRID);
+    my $page = get_page(mkurl($CHANNEL_GRID, {}));
 
     #debug_print( "URL  : " . $CHANNEL_GRID ."\n");
     #   debug_print($page);
