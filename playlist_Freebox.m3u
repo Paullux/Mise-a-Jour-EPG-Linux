@@ -1,12 +1,12 @@
 #EXTM3U
 #EXTINF:0 tvg-id="C192.api.telerama.fr" tvg-logo="tf1.png",TF1
-rtsp://Freebox-Player.local/fbxdvb/stream?tsid=6&nid=8442&sid=1537&frontend=2
+rtsp://Freebox-Player.local/fbxdvb/stream?tsid=6&nid=8442&sid=1537&frontend=1
 #EXTINF:0 tvg-id="C4.api.telerama.fr" tvg-logo="france2.png",France 2
 rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=201&flavour=hd
 #EXTINF:0 tvg-id="C80.api.telerama.fr"  tvg-logo="france3.png",France 3
 rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=202&flavour=hd
 #EXTINF:0 tvg-id="C34.api.telerama.fr"  tvg-logo="canal+.png",CANAL+
-rtsp://Freebox-Player.local/fbxdvb/stream?tsid=3&nid=8442&sid=778&frontend=2
+rtsp://Freebox-Player.local/fbxdvb/stream?tsid=3&nid=8442&sid=778&frontend=1
 #EXTINF:0 tvg-id="C47.api.telerama.fr" tvg-logo="france5.png",France 5
 rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=203&flavour=hd
 #EXTINF:0 tvg-id="C118.api.telerama.fr" tvg-logo="m6.png",M6
@@ -16,7 +16,7 @@ rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=204&flavour=hd
 #EXTINF:0 tvg-id="C445.api.telerama.fr" tvg-logo="c8.png",C8 
 rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=372&flavour=sd
 #EXTINF:0 tvg-id="C119.api.telerama.fr"  tvg-logo="w9.png",W9
-rtsp://Freebox-Player.local/fbxdvb/stream?tsid=4&nid=8442&sid=1026&frontend=2
+rtsp://Freebox-Player.local/fbxdvb/stream?tsid=4&nid=8442&sid=1026&frontend=1
 #EXTINF:0 tvg-id="C195.api.telerama.fr"  tvg-logo="tmc.png",TMC
 rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=497&flavour=hd
 #EXTINF:0 tvg-id="C446.api.telerama.fr"  tvg-logo="nt1.png",NT1
@@ -38,11 +38,11 @@ rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=677&flavour=hd
 #EXTINF:0 tvg-id="C160.api.telerama.fr"  tvg-logo="franceO.png",France Ô
 rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=238&flavour=hd
 #EXTINF:0 tvg-id="C1404.api.telerama.fr"  tvg-logo="hd1.png",HD1
-rtsp://Freebox-Player.local/fbxdvb/stream?tsid=10&nid=8442&sid=2561&frontend=2
+rtsp://Freebox-Player.local/fbxdvb/stream?tsid=10&nid=8442&sid=2561&frontend=1
 #EXTINF:0 tvg-id="C1401.api.telerama.fr"  tvg-logo="lequipe21.png",L'Equipe
 rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=994&flavour=hd
 #EXTINF:0 tvg-id="C1403.api.telerama.fr"  tvg-logo="6ter.png",6ter
-rtsp://Freebox-Player.local/fbxdvb/stream?tsid=4&nid=8442&sid=1046&frontend=2
+rtsp://Freebox-Player.local/fbxdvb/stream?tsid=4&nid=8442&sid=1046&frontend=1
 #EXTINF:0 tvg-id="C1402.api.telerama.fr"  tvg-logo="n23.png",Numéro 23
 rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=996&flavour=hd
 #EXTINF:0 tvg-id="C1400.api.telerama.fr"  tvg-logo="rmcdecouverte.png",RMC Découverte
@@ -50,7 +50,7 @@ rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=997&flavour=hd
 #EXTINF:0 tvg-id="C1399.api.telerama.fr"  tvg-logo="cherie25.png",Chérie 25
 rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=998&flavour=hd
 #EXTINF:0 tvg-id="C112.api.telerama.fr"  tvg-logo="lci.png",LCI
-rtsp://Freebox-Player.local/fbxdvb/stream?tsid=3&nid=8442&sid=776&frontend=2
+rtsp://Freebox-Player.local/fbxdvb/stream?tsid=3&nid=8442&sid=776&frontend=1
 #EXTINF:0 tvg-id="C2111.api.telerama.fr"  tvg-logo="franceinfotv.png",franceinfo
 rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=1173&flavour=hd
 #EXTINF:0 tvg-id="C145.api.telerama.fr"  tvg-logo="parispremiere.png",Paris Première
@@ -125,7 +125,7 @@ rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=982&flavour=hd
 rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=1127&flavour=hd
 #EXTINF:0 tvg-id="C415.api.telerama.fr"  tvg-logo="nautical-channel.png",Nautical Channel
 rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=255&flavour=hd
-#EXTINF:0 tvg-logo="Golf_Channel_2014_Logo.png",Golf Channel
+#EXTINF:0 tvg-id="1166.api.telerama.fr"  tvg-logo="Golf_Channel_2014_Logo.png",Golf Channel
 rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=892&flavour=hd
 #EXTINF:0 tvg-logo="PremiereFC.png",Premiere Futebol Clube
 rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=755&flavour=sd
