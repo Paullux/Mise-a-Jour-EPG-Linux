@@ -26,4 +26,6 @@ chmod +x $HOME/.local/share/applications/MiseAJourEPG.desktop
 chmod +x $HOME/Documents/MiseAJourEPG/tv_grab_fr_telerama
 chmod +x ./uninstall.sh
 echo 'export PATH="${PATH}:~/.local/bin"' >> $HOME/.bashrc
-
+bash $HOME/Documents/MiseAJourEPG/tv_grab_fr_telerama --configure --gui
+bash $HOME/Documents/MiseAJourEPG/tv_grab_fr_telerama --gui
+exit 0
