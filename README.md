@@ -17,7 +17,7 @@ Pour automatiser au maximum la mise à jour de l'EPG, j'ai ajouté mon script de
 Dans le menu de configuration l'extension de Kodi "PVR Simple IPTV" :  
 
 => Si vous êtes chez Free, vous pouvez choisir playlist local et choisir le fichiers m3u placer dans "Documents/MiseAJourEPG/" (si vous avez exécuter install.sh) (j'ai édité le fichier http://mafreebox.freebox.fr/freeboxtv/playlist.m3u pour n'avoir que les chaînes que je regarde, dans les autres cas il vous faudra éditer votre propre fichier m3u).   
- => Ensuite choisir xml local (généré par lors de l'exécution de install.sh) le fichier xml se situe dans "Documents/MiseAJourEPG/".   
+ => Ensuite choisir xml local et le fichier xml (généré par lors de l'exécution de install.sh) qui se situe dans "Documents/MiseAJourEPG/".   
  => Et finalement, pour les logos : choisir Chemin d'accès distant (adresse internet) et dans Options des logos XMLTV choisir "Logos des chaines à partir du XMLTV" : "Préférer XMLTV".
 
 Normalement là vous avez accès à la tv sur Kodi.
@@ -28,7 +28,7 @@ Après vous pourrez voir dans votre menu, deux nouvelles applications : "Mise à
 Pour l'éditer le fichier m3u par exemple http://mafreebox.freebox.fr/freeboxtv/playlist.m3u, si vous êtes chez Free, il faut par exemple pour TF1 :  
 Modifier la ligne juste au dessus du lien vers l'adresse du flux vidéo :
 
-C'est à dire ajouter le numéro de la chaine qui existe dans le fichier tv_grab_fr_telerama.conf, en ajoutant un "C" en premier puis ".api.telerama.fr" ce qui donne tvg-id="C192.api.telerama.fr  
+C'est à dire ajouter le numéro de la chaine qui existe dans le fichier tv_grab_fr_telerama.conf, en ajoutant un "C" en premier puis ".api.telerama.fr" ce qui donne tvg-id="C192.api.telerama.fr"  
 J'ai remplacer le nom de la chaîne "1 - TF1 (TNT)" par "TF1" mais ça ça dépend de vos choix.  
 et après vous pouvez remplacer dans le lien 192.168.0.22 (ip local de la freebox-player) par Freebox-Player.local (pour les chaînes TNT, pour les autres chaînes vous n'avez pas à besoin d'éditer l'url), voici ce que ça donne :
 
