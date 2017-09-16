@@ -16,7 +16,7 @@ Pour automatiser au maximum la mise à jour de l'EPG, j'ai ajouté mon script de
 
 Dans le menu de configuration l'extension de Kodi "PVR Simple IPTV" :  
 
-=> Si vous êtes chez Free, vous pouvez choisir playlist local et choisir le fichiers m3u placer dans "Documents/MiseAJourEPG/" (si vous avez exécuter install.sh) (j'ai édité le fichier http://mafreebox.freebox.fr/freeboxtv/playlist.m3u pour n'avoir que les chaînes que je regarde, dans les autres cas il vous faudra éditer votre propre fichier m3u).   
+=> Si vous êtes chez Free, vous pouvez choisir playlist local et choisir le fichier m3u placer dans "Documents/MiseAJourEPG/" (si vous avez exécuté install.sh) (j'ai édité le fichier http://mafreebox.freebox.fr/freeboxtv/playlist.m3u pour n'avoir que les chaînes que je regarde, dans les autres cas il vous faudra éditer votre propre fichier m3u).   
  => Ensuite choisir xml local et le fichier xml (généré par lors de l'exécution de install.sh) qui se situe dans "Documents/MiseAJourEPG/".   
  => Et finalement, pour les logos : choisir Chemin d'accès distant (adresse internet) et dans Options des logos XMLTV choisir "Logos des chaines à partir du XMLTV" : "Préférer XMLTV".
 
