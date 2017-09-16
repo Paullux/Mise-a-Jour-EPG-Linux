@@ -12,7 +12,7 @@ chmod +x install.sh
 Lors du lancement du script d'installation, vous pouvez éditer la config de l'EPG, si vous choisissez de ne pas éditer la liste des chaînes vous laisserez alors celle que j'ai choisi pour moi.
 
 Pour automatiser au maximum la mise à jour de l'EPG, j'ai ajouté mon script de mise à jour de l'EPG dans crontab  
-(pour editer la fréquence de mise à jour ou pour désintaller utilisez la commande "crontab -e" (n'oubliez pas de retirer la ligne qui lance le script de mise à jour lors de la désinstallation)).
+(pour editer la fréquence de mise à jour ou pour désinstaller utilisez la commande "crontab -e" (n'oubliez pas de retirer la ligne qui lance le script de mise à jour lors de la désinstallation)).
 
 Dans le menu de configuration l'extension de Kodi "PVR Simple IPTV" :  
 
