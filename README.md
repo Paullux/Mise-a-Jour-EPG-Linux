@@ -21,7 +21,7 @@ Dans l'extention de Kodi : "PVR Simple IPTV" :
  
  => Ensuite choisir xml local (après avoir lancé le lanceur depuis le menu de votre environnement) le fichier xml se situe dans "Documents/MiseAJourEPG/"
  
- => Et finalement, pour les logos choisir logos locaux et choisir le dossier "Logo" créer dans "Documents/MiseAJourEPG/" par install.sh qui a dézippé le fichier "Logo.zip" présent dans le dépot.
+ => Et finalement, pour les logos choisir logos locaux et choisir le dossier "Logos" créer dans "Documents/MiseAJourEPG/" par install.sh qui a dézippé le fichier "Logo.zip" présent dans le dépot.
 
 Pour exécuter le script en pearl il faut installer perl et les modules de perl suivant :
  
