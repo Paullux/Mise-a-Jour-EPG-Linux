@@ -1,6 +1,6 @@
 [Desktop Entry]
 Comment=Mise à jour du programme TV dans Kodi
-Terminal=true
+Terminal=false
 Name=Mise à Jour EPG
 Exec=sh -c '$HOME/.local/bin/MiseAJourEPG.sh'
 Type=Application

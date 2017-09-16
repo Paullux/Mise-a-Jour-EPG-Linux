@@ -2,26 +2,43 @@
 
 J'utilise Kodi, avec l'Add-On "PVR simple iptv" pour regarder la tv sur mon PC sous Linux.
 
-zubrick propose sur son github (https://github.com/zubrick/tv_grab_fr_telerama) un script perl qui permet de récupérer un EPG gratuit pour la France.
-J'ai réutulisé son travail pour mettre à jour l'EPG sur mon PC automatiquement sans avoir à trop à intervenir.
+Zubrick propose sur son github (https://github.com/zubrick/tv_grab_fr_telerama) un script perl qui permet de récupérer un EPG gratuit pour la France.
+J'ai réutilisé son travail pour mettre à jour l'EPG sur mon PC automatiquement sans avoir à trop à intervenir.
 
-commande à effectuer en tant qu'utilisateur courant :
+Pour cela il faut utiliser les commandes suivantes en tant qu'utilisateur courant (pas besoin d'être root ou d'utiliser sudo) :
 
 chmod +x install.sh	
-
 ./install.sh
 
-Si vous voulez automatiser au maximum la mise à jour l'EPG, penser à ajouter la mise à jour de l'EPG au programme au démarrage.
-Le temps de compilation de la liste xmltv étant assez long (une 20aine de minute pour moi) il faut plutôt essayer de n'exécuter l'ensemble du programme qu'un fois par jour ou moins.
+Lors du lancement du script d'installation, vous pouvez éditer la config de l'EPG ou en choisissant de ne pas éditer la liste des chaînes vous laisserez celle que j'ai choisi pour moi.
 
+Pour automatiser au maximum la mise à jour de l'EPG, j'ai ajouté mon script de mise à jour de l'EPG dans crontab (pour editer la fréquence de mise à jour ou pour désintaller utilisez la commande "crontab -e" (n'oubliez pas de retirer la ligne qui lance le script de mise à jour lors de la désinstallation)).
 
-Dans l'extention de Kodi : "PVR Simple IPTV" :
+Dans l'extention le menu de configuration l'addon de Kodi "PVR Simple IPTV" :
 
- => Choisir playlist local et choisir le fichiers m3u déplacer dans "Documents/MiseAJourEPG/" si vous avez exécuter install.sh (le fichier marche seulement si vous êtes chez Free, sinon faudra éditer votre propre fichier m3u)
+ => Si vous êtes chez Free, vous pouvez choisir playlist local et choisir le fichiers m3u placer dans "Documents/MiseAJourEPG/" (si vous avez exécuter install.sh) (j'ai éditer le fichier http://mafreebox.freebox.fr/freeboxtv/playlist.m3u pour n'avoir que les chaînes que je regarde, dans les autres cas il vous faudra éditer votre propre fichier m3u).
  
- => Ensuite choisir xml local (après avoir lancé le lanceur depuis le menu de votre environnement) le fichier xml se situe dans "Documents/MiseAJourEPG/"
+ => Ensuite choisir xml local (généré par lors de l'exécution de install.sh) le fichier xml se situe dans "Documents/MiseAJourEPG/".
  
- => Et finalement, pour les logos choisir logos locaux et choisir le dossier "Logos" créer dans "Documents/MiseAJourEPG/" par install.sh qui a dézippé le fichier "Logo.zip" présent dans le dépot.
+ => Et finalement, pour les logos : choisir Chemin d'accès distant (adresse internet) et dans Options des logos XMLTV choisir "Logos des chaines à partir du XMLTV" : "Préférer XMLTV".
+
+Normalement là vous avez accès à la tv sur Kodi.
+
+Après vous pourrez voir dans votre menu, deux nouvelles applications : "Mise à Jour EPG" et "Config EPG", la première pour repeupler le fichier xml et la seconde pour choisir pour quelles chaînes vous désirez avoir le programme dans le fichier xml. 
+
+
+Pour l'éditer le fichier m3u par exemple http://mafreebox.freebox.fr/freeboxtv/playlist.m3u, si vous êtes chez Free, il faut par exemple pour TF1 :
+
+Modifier la ligne juste au dessus du lien vers l'adresse du flux vidéo c'est à dire ajouter le numéro de la chaine qui existe dans le fichier tv_grab_fr_telerama.conf, en ajoutant un "C" en premier puis ".api.telerama.fr" ce qui donne tvg-id="C192.api.telerama.fr, il faut choisir un flux par chaîne (et elever les autres de cette même chaîne) et après vous pouvez remplacer dans le lien 192.168.0.22 par Freebox-Player.local (pour les chaînes TNT), voici ce que ça donne :
+
+Avant :
+#EXTINF:0,1 - TF1 (TNT)
+rtsp://192.168.0.22/fbxdvb/stream?tsid=6&nid=8442&sid=1537&frontend=1
+Après :
+#EXTINF:0 tvg-id="C192.api.telerama.fr",TF1
+rtsp://Freebox-Player.local/fbxdvb/stream?tsid=6&nid=8442&sid=1537&frontend=1
+
+Si vous êtes chez un autre opérateur ou si vous connaissez d'autre flux vidéos il suffit de remplacer les flux par les votres.
 
 Pour exécuter le script en pearl il faut installer perl et les modules de perl suivant :
  
@@ -36,6 +53,11 @@ Pour exécuter le script en pearl il faut installer perl et les modules de perl 
  => LWP::Protocol::https
 
  => Digest::HMAC
+
+pour ArchLinux ça donne : 
+yaourt -S perl xmltv perl-term-readkey perl-json pearl-datetime-format-strptime perl-lwp-protocol-https perl-digest-hmac
+
+
 
 Si jamais certaines chaines ne sont pas chargées (en particuliers les chaines des groupes TF1 et M6), vérifiez si vous avez installer les chaines TNT sur le Freebox Player.
 Sinon vérifiez aussi la connection entre le Freebox-Player et la Freebox-Server (notamment au niveau des freeplugs).

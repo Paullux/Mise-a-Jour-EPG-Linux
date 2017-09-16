@@ -1,0 +1,8 @@
+[Desktop Entry]
+Comment=Configuration du guide des programmes TV dans Kodi
+Terminal=false
+Name=Mise à Jour Config EPG
+Exec=sh -c '$HOME/.local/bin/MiseAJourConfigEPG.sh'
+Type=Application
+Icon=tvguide-logo-epg-config.png
+Name[fr_FR]=Config EPG
