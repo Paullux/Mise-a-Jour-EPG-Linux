@@ -8,6 +8,7 @@ J'ai réutilisé son travail pour mettre à jour l'EPG sur mon PC automatiquemen
 Pour cela il faut utiliser les commandes suivantes en tant qu'utilisateur courant (pas besoin d'être root ou d'utiliser sudo) :
 
 chmod +x install.sh	
+
 ./install.sh
 
 Lors du lancement du script d'installation, vous pouvez éditer la config de l'EPG ou en choisissant de ne pas éditer la liste des chaînes vous laisserez celle que j'ai choisi pour moi.
