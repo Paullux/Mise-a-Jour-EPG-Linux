@@ -51,7 +51,7 @@ Pour exécuter le script en pearl il faut installer perl et les modules de perl 
  => Digest::HMAC  
  
 pour ArchLinux ça donne :   
-yaourt -S perl xmltv perl-term-readkey perl-json perl-datetime-format-strptime perl-lwp-protocol-https perl-digest-hmac
+yaourt -S perl xmltv perl-term-readkey perl-json perl-datetime perl-lwp-protocol-https perl-digest-hmac
 
 
 Si jamais certaines chaines ne sont pas chargées (en particuliers les chaines des groupes TF1 et M6), vérifiez si vous avez installer les chaines TNT sur le Freebox Player.
