@@ -1,14 +1,13 @@
 # Mise-a-Jour-EPG-Linux
 
-Premièrement ce qu'il faut installer pour ArchLinux :  
-yaourt -S kodi kodi-addon-pvr-iptvsimple cronie perl xmltv perl-term-readkey perl-json perl-datetime perl-lwp-protocol-https perl-digest-hmac
-
 J'utilise Kodi, avec l'Add-On "PVR simple iptv" pour regarder la tv sur mon PC sous Linux.
 
 Zubrick propose sur son github (https://github.com/zubrick/tv_grab_fr_telerama) un script perl qui permet de récupérer un EPG gratuit pour la France.
 J'ai réutilisé son travail pour mettre à jour l'EPG sur mon PC automatiquement sans avoir à trop à intervenir.
 
-Pour cela il faut utiliser les commandes suivantes en tant qu'utilisateur courant (pas besoin d'être root ou d'utiliser sudo) :  
+Si vous êtes sur ArchLinux vous pouvez installer tout ces paquets (attention, certains viennent d'AUR) :  
+yaourt -S kodi kodi-addon-pvr-iptvsimple cronie perl xmltv perl-term-readkey perl-json perl-datetime perl-lwp-protocol-https perl-digest-hmac  
+Après il faut utiliser les commandes suivantes en tant qu'utilisateur courant (pas besoin d'être root ou d'utiliser sudo) :  
 chmod +x install.sh	  
 ./install.sh
 
